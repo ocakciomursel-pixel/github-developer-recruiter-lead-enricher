@@ -1,0 +1,16 @@
+{
+  "mcpServers": {
+    "lucacelli-github-developer-recruiter-lead-enricher": {
+      "command": "npx",
+      "args": [
+        "-y",
+        "@apify/actors-mcp-server",
+        "--actors",
+        "lucacelli/github-developer-recruiter-lead-enricher"
+      ],
+      "env": {
+        "APIFY_TOKEN": "YOUR_APIFY_TOKEN_HERE"
+      }
+    }
+  }
+}

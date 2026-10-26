@@ -1,0 +1,33 @@
+{
+  "name": "GitHub Developer, Stargazer & Contributor Lead Enricher — Automated Make.com Scenario",
+  "flow": [
+    {
+      "id": 1,
+      "module": "http:ActionSendData",
+      "version": 3,
+      "parameters": {},
+      "mapper": {
+        "url": "https://api.apify.com/v2/acts/lucacelli~github-developer-recruiter-lead-enricher/run-sync-get-dataset-items?token={{YOUR_APIFY_TOKEN}}",
+        "method": "post",
+        "headers": [
+          {
+            "name": "Content-Type",
+            "value": "application/json"
+          }
+        ],
+        "qs": [],
+        "bodyType": "raw",
+        "parseResponse": true,
+        "contentType": "application/json",
+        "data": "{\"repositories\":[\"langchain-ai/langchain\",\"n8n-io/n8n\"],\"maxContributors\":50}"
+      },
+      "metadata": {
+        "designer": {
+          "x": 0,
+          "y": 0
+        },
+        "notes": "Get your free $5 Apify API token & inspect Actor at https://apify.com/lucacelli/github-developer-recruiter-lead-enricher"
+      }
+    }
+  ]
+}
