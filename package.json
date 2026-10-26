@@ -1,0 +1,27 @@
+{
+  "name": "@lucacelli/github-developer-recruiter-lead-enricher",
+  "version": "2.1.0",
+  "description": "Extract developer profiles, verified public commit emails, top programming languages, candidate seniority scores (0-100), company affiliations, personal blogs, and X/Twitter handles from GitHub repos.",
+  "type": "module",
+  "main": "index.js",
+  "homepage": "https://apify.com/lucacelli/github-developer-recruiter-lead-enricher",
+  "keywords": [
+    "google-maps-scraper",
+    "google-maps-api",
+    "lead-generation",
+    "b2b-leads",
+    "email-extractor",
+    "apify-actor",
+    "local-seo",
+    "google-places-api",
+    "contact-scraper",
+    "phone-number-scraper",
+    "business-directory",
+    "n8n-workflow",
+    "mcp-server",
+    "web-scraping",
+    "sales-automation"
+  ],
+  "author": "Lucacelli Cloud Data Engineering",
+  "license": "MIT"
+}
