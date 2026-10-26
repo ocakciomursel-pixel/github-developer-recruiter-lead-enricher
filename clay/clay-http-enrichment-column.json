@@ -1,0 +1,20 @@
+{
+  "platform": "Clay.com HTTP API Enrichment Column",
+  "actorTitle": "GitHub Developer, Stargazer & Contributor Lead Enricher",
+  "actorStoreUrl": "https://apify.com/lucacelli/github-developer-recruiter-lead-enricher",
+  "costComparison": "$0.0008 per developer ($0.80/1k) vs. $0.10–$0.50 per row in native Clay credits (98% savings)",
+  "httpApiConfiguration": {
+    "method": "POST",
+    "endpoint": "https://api.apify.com/v2/acts/lucacelli~github-developer-recruiter-lead-enricher/run-sync-get-dataset-items?token=YOUR_APIFY_TOKEN",
+    "headers": {
+      "Content-Type": "application/json"
+    },
+    "bodyTemplate": {
+      "repositories": [
+        "langchain-ai/langchain",
+        "n8n-io/n8n"
+      ],
+      "maxContributors": 50
+    }
+  }
+}
